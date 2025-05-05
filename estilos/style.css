@@ -38,6 +38,9 @@ section#login{
     transform: translate(-50%, -50%);
     overflow: hidden; /*TUDO QUE ESTIVER FORA DA DIV ELE ESCONDE*/
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    
+    transition: width 0.3S, height 0.3S; /*DEIXA A MUDANÇA DO TAMANHO MAIS FLUIDO*/
+    transition-timing-function: ease; /*TORNA AINDA MAIS FLUIDO A TRANSIÇÃO DO TAMANHO*/
 }
 
 section#login > div#imagem{
